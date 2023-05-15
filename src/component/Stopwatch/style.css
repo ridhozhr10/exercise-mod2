@@ -1,0 +1,43 @@
+.wrapper {
+  background-color: black;
+  color: white;
+  max-width: 250px;
+  border-radius: 7px;
+}
+
+.top {
+  text-align: center;
+}
+
+.top span {
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 85px;
+}
+
+.bottom {
+  display: flex;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+
+button.btn {
+  padding: 10px 5px;
+  border: 0;
+  border-radius: 7px;
+  color: white;
+  cursor: pointer;
+}
+
+.start {
+  background-color: green;
+}
+
+.stop {
+  background-color: red;
+}
+
+.reset {
+  color: black;
+  background-color: yellow;
+}

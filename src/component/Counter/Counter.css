@@ -1,0 +1,27 @@
+.wrapper {
+  display: flex;
+  background-color: black;
+  color: white;
+  align-items: center;
+  max-width: 300px;
+  justify-content: space-around;
+}
+
+button.btn {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.dec {
+  background-color: red;
+}
+
+.inc {
+  background-color: green;
+}
+
+.wrapper h1 {
+  font-size: 5em;
+  margin: 40px 0px
+}
